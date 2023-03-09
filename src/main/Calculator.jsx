@@ -4,6 +4,8 @@ import './Calculator.css'
 import Button from "../components/Button";
 import Display from "../components/Display";
 
+/* eslint no-eval: 0 */
+
 const initialState={
     displayValue:'0',
     clearDisplay: false,
